@@ -53,7 +53,7 @@ h2 {
 }
 
 img {
-  width: 50%;
-  height: auto;
+  width: 800px;
+  height: 600px;
   object-fit: cover; /* or contain */
 }
