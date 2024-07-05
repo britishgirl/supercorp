@@ -52,8 +52,13 @@ h2 {
   margin-top: 10px;
 }
 
-header img {
+img {
   width: 200%;
+  height: auto;
+  margin-bottom: 10px;
+}
+header img {
+  max-width: 200%; /* increased from 100% */
   height: auto;
   margin-bottom: 10px;
 }
