@@ -1,71 +1,53 @@
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+    background-color: #0099f7; /* Superman blue */
+    text-align: center;
+    padding: 20px;
 }
 
-h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
-  /* Superman-themed styles */
-  background-image:
-  background-size: contain;
-  background-repeat: no-repeat;
-  color: #D8E7F9; /* Superman blue */
-  text-align: center;
-  padding: 80px 0; /* Adjust as needed */
-  font-size: 3rem; /* Adjust the font size */
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a subtle shadow */
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
 }
 
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffe63a; /* Superman yellow */
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 20px;
+nav ul li {
+    margin: 0 15px;
 }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
+nav ul li a {
+    text-decoration: none;
+    color: #f11712; /* Superman red */
+    font-weight: bold;
 }
 
-nav a:hover {
-  color: #ccc;
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
-section {
-  background-color: #f0f0f0;
-  padding: 20px;
-  margin-bottom: 20px;
+h1 {
+    color: #0099f7; /* Superman blue */
 }
 
-h2 {
-  font-size: 24px;
-  margin-top: 10px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+p {
+    color: #333;
 }
